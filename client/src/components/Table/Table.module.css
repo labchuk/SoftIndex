@@ -1,0 +1,42 @@
+table.tab {
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+}
+table.tab thead {
+    font-weight: bold;
+}
+thead th {
+    text-align: left;
+    padding: 0.6rem 1rem;
+}
+table.tab td {
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid #e8e9eb;
+}
+table {
+    margin: auto;
+}
+.container {
+    margin: 0 10px;
+}
+@media screen and (max-width: 650px) {
+    table.tab thead {
+        display: none;
+    }
+    table.tab tr {
+        display: block;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #e8e9eb;
+    }
+    table.tab td {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    table.tab td:before {
+        content: attr(aria-label);
+        font-weight: bold;
+    }
+
+}

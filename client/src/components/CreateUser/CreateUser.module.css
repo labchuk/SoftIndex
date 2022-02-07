@@ -1,0 +1,33 @@
+
+.CreateUser{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    width: 100%;
+}
+.Block{
+    display: flex;
+    flex-direction: column;
+}
+
+.Block input{
+    max-width: 300px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.BlockGender{
+    margin: 10px 0px;
+}
+.SubmitBtn {
+    margin: 10px auto;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
